@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,500;1,500&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>Shop</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<div class="header__body">
+					<div class="responsive__icon">
+						<span></span>
+					</div>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="" class="menu__link">
+									Catalog
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="" class="menu__link">
+									About
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="" class="menu__link">
+									Delivery
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__logo">
+						<a href="">
+							<img src="img/header/logo/logo.png" alt="img">
+						</a>
+					</div>
+					<nav class="header__menu menu-icon">
+						<ul class="menu-icon__list">
+							<li class="menu-icon__item">
+								<a href="" class="menu__link">
+									Contact
+								</a>
+							</li>
+							<li class="menu-icon__item">
+								<a href="" class="menu__link">
+									<img src="img/header/search.png" alt="img">
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header-responsive responsive">
+						<div class="responsive__logo">
+							<img src="img/header/logo/logo-min.png" alt="img">
+						</div>
+					</div>
+					<nav class="responsive__body ">
+						<ul class="responsive__list">
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Main page</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Catalog</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">About us</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Delivery</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Contacts</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Bonus program</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Work process</a>
+							</li>
+							<li class="responsive__item">
+								<a href="" class="responsive__link">Partners</a>
+							</li>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__modal modals">
+						<div class="modals__botton">
+							<button class="modals__btn" data-path="form-acc">
+								<span class="modals__icon-acc">
+									<img src="img/header/account.png" alt="img">
+								</span>
+							</button>
+							<button class="modals__btn" data-path="me-cart">
+								<span class="modals__icon-cart">
+									<img src="img/header/cart.png" alt="img">
+								</span>
+							</button>
+						</div>
+						<div class="modals">
+							<div class="modal__overlay">
+								<div class="modal modal-acc" data-target="form-acc">
+									<div class="modal-acc__logo">
+										<img src="img/header/logo/logo-color.png" alt="img">
+									</div>
+									<div class="modal-acc__title">
+										Registration
+									</div>
+									<div class="modal-acc__text">
+										If this is your first time on the site,
+										then you should fill out a questionnaire so that we can
+										keep a history of your
+										orders
+									</div>
+									<form class="modal-acc__sign-in" action="#">
+										<div class="modal-acc__item">
+											<input type="text" placeholder="Your name">
+										</div>
+										<div class="modal-acc__item">
+											<input type="text" placeholder="E-Mail">
+										</div>
+										<div class="modal-acc__item">
+											<input type="number" placeholder="Contact number">
+										</div>
+										<div class="modal-acc__item">
+											<input type="password" placeholder="Password">
+										</div>
+										<div class="modal-acc__item">
+											<input type="text" placeholder="Country">
+										</div>
+										<div class="modal-acc__item">
+											<input type="text" placeholder="City">
+										</div>
+										<div class="modal-acc__botton">
+											<a href="" class="modal-acc__btn">
+												Сomplete registration
+											</a>
+										</div>
+										<div class="modal-acc__log log">
+											<div class="log__img">
+												<img src="img/header/account-color.png" alt="img">
+											</div>
+											<div class="log__text">
+												Log-In
+											</div>
+										</div>
+										<div class="modal-acc__min-text">
+											I agree with the rules of personal data processing
+										</div>
+									</form>
+								</div>
+								<div class="modal modal-cart" data-target="me-cart">
+									<div class="modal-cart__title">
+										<h2>Your cart <span> 2 products</span> </h2>
+									</div>
+									<div class="modal-cart__row">
+										<div class="modal-cart__item item-cart">
+											<div class="item-cart__row">
+												<div class="item-cart__img">
+													<img src="img/header/cart/01.png" alt="img">
+												</div>
+												<div class="item-cart__body">
+													<div class="item-cart__title">
+														Perfect brows
+													</div>
+													<div class="item-cart__subtitle">
+														Add to favorites
+													</div>
+													<div class="item-cart__botton">
+														<div class="item-cart__btn">
+															1
+														</div>
+													</div>
+													<div class="item-cart__price">
+														54 €
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="cart__item item-cart">
+											<div class="item-cart__row">
+												<div class="item-cart__img">
+													<img src="img/header/cart/02.png" alt="img">
+												</div>
+												<div class="item-cart__body">
+													<div class="item-cart__title">
+														Perfect brows
+													</div>
+													<div class="item-cart__subtitle">
+														Add to favorites
+													</div>
+													<div class="item-cart__botton">
+														<div class="item-cart__btn">
+															1
+														</div>
+													</div>
+													<div class="item-cart__price">
+														54 €
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-cart__total total">
+										<div class="total__text"> Total:</div>
+										<div class="total__price">108 € </div>
+									</div>
+									<div class="modal-cart__botton">
+										<div class="modal-cart__btn">
+											Place an order
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__swiper swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/bckg/bckg.jpg" alt="img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/bckg/bckg.jpg" alt="img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/bckg/bckg.jpg" alt="img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/bckg/bckg.jpg" alt="img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/bckg/bckg.jpg" alt="img">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/bckg/bckg.jpg" alt="img">
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</section>
+			<section class="page__catalogy catalogy">
+				<div class="catalogy__container _container">
+					<div class="catalogy__body">
+						<div class="catalogy__item-care item-catalogy">
+							<div class="item-catalogy__title">
+								<h2>Care</h2>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/01.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/03.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/04.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/04.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/03.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/01.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item-beauty item-catalogy">
+							<div class="item-catalogy__title">
+								<h2>Beauty</h2>
+							</div>
+						</div>
+						<div class="catalogy__item-brows item-catalogy">
+							<div class="item-catalogy__title">
+								<h2>Brows</h2>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/04.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/03.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+						<div class="catalogy__item item-catalogy">
+							<div class="item-catalogy__img">
+								<img src="img/mainblock/care/01.png" alt="img">
+							</div>
+							<div class="item-catalogy__price price">
+								<div class="price__text">
+									Perfect brows
+								</div>
+								<div class="price__price">
+									54 €
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container _container">
+					<div class="about__row">
+						<div class="about__img">
+							<img src="img/mainblock/about/bckg.jpg" alt="img">
+						</div>
+						<div class="about__body">
+							<div class="about__title">
+								<h1>B O L T A E V A</h1>
+							</div>
+							<div class="about__subtitle">
+								Each Boltaeva brand product
+								is truly unique - everything is thought out
+								to the smallest detail.
+							</div>
+							<div class="about__text">
+								The brand seeks to build respect among
+								the audience for its products, so that
+								the presence of the company's products is
+								a sign of prestige, since the focus
+								of the business is focused on exclusive sales, but not on the
+								mass market.
+							</div>
+							<div class="about__author">
+								Zara Boltaeva
+								<p>CEO, Founder</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__inst inst">
+				<div class="inst__container _container">
+					<div class="inst__row">
+						<div class="inst__body">
+							<div class="inst__column">
+								<div class="inst__text">
+									Boltaeva - this is a real society of
+									girls who show love to themselves
+								</div>
+							</div>
+							<div class="inst__column">
+								<div class="inst__botton">
+									<div class="inst__btn">
+										Instagram
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__gallery gallery">
+				<div class="gallery__container _container">
+					<div class="gallery__body">
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/01.png" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/02.jpg" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/01.png" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/02.jpg" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/03.jpg" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/04.jpg" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/03.jpg" alt="img">
+							</div>
+						</div>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__img">
+								<img src="img/mainblock/gallery/04.jpg" alt="img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__title title">
+				<div class="title__container _container">
+					<div class="title__body">
+						<div class="title__title">
+							<h1>B O L T A E V A</h1>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="footer__top">
+					<div class="footer__main _container">
+						<div class="footer__row">
+							<div class="footer__column">
+								<div class="footer__label">
+									Company
+								</div>
+								<div class="footer__text">
+									The brand strives to create
+									espect for its products among
+									the audience, so that the presence
+									of the company's products
+									is a sign of prestige.
+								</div>
+								<div class="footer__social social">
+									<div class="social__icon">
+										<img src="img/footer/social-network/fb.png" alt="img">
+									</div>
+									<div class="social__icon">
+										<img src="img/footer/social-network/inst.png" alt="img">
+									</div>
+									<div class="social__icon">
+										<img src="img/footer/social-network/twit.png" alt="img">
+									</div>
+									<div class="social__icon">
+										<img src="img/footer/social-network/yout.png" alt="img">
+									</div>
+									<div class="social__icon">
+										<img src="img/footer/social-network/vk.png" alt="img">
+									</div>
+								</div>
+							</div>
+							<div class="footer__column">
+								<div class="footer__label">
+									Navigation
+								</div>
+								<nav class="footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											Product catalog
+										</li>
+										<li class="menu-footer__item">
+											About company
+										</li>
+										<li class="menu-footer__item">
+											Bonus program
+										</li>
+										<li class="menu-footer__item">
+											Work process
+										</li>
+										<li class="menu-footer__item">
+											Partners
+										</li>
+										<li class="menu-footer__item">
+											Privacy Policy
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="footer__column">
+								<div class="footer__label">
+									Products
+								</div>
+								<nav class="footer__menu menu-footer">
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											Care cosmetics
+										</li>
+										<li class="menu-footer__item">
+											Eyebrow cosmetics
+										</li>
+										<li class="menu-footer__item">
+											Decorative cosmetics
+										</li>
+										<li class="menu-footer__item">
+											New in the collection
+										</li>
+										<li class="menu-footer__item">
+											Box and complect
+										</li>
+										<li class="menu-footer__item">
+											Accessories
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="footer__column">
+								<div class="footer__label">
+									Contacts
+								</div>
+								<div class="footer__text">
+									The brand strives to create
+									espect for its products among
+									the audience, so that the presence
+									of the company's products
+									is a sign of prestige.
+								</div>
+								<div class="footer__contacts contact">
+									<div class="contact__item ">
+										<div class="contact__mail">
+											E-mail
+										</div>
+										<div class="contact__whatsapp">
+											Whatsapp
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</main>
+
+
+
+
+
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
